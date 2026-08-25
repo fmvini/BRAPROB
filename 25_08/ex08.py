@@ -6,10 +6,10 @@ for i in range(18):
 
 sorteado = []
 
-for i in range(17):
+for i in range(18):
     x = randint(0, (17 - i))
     sorteado.append(lista[x])
     lista.remove(lista[x])
 
 for i in range(18):
-    print("Nº", i, "->", sorteado[i])
+    print("Nº", i + 1, "->", sorteado[i])
